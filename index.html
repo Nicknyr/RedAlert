@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenRA - Command and Conquer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+
+    <script src="https://use.fontawesome.com/e163940e8d.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+  <body>
+
+  <div class="container-fluid">
+
+
+      <ul class="nav navbar-fixed-top col-md-12">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Games</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Community</a>
+        </li>
+      </ul>
+
+
+
+
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="fork-me">
+          <img src="images/forkme.svg" alt="">
+        </div>
+        <div class="container">
+          <div class="soviet-image">
+            <img src="images/soviet-logo.svg" alt="">
+          </div>
+          <h1 class="display-3">Welcome Back, Commander</h1>
+          <p class="lead col-md-4">Classic stragety games rebuilt for the modern era</p>
+          <p class="lead col-md-4">Open Source. Free. For all modern operating systems</p>
+          <button type="button" class="btn">Install Now</button>
+        </div>
+      </div>
+
+      <div class="container-fluid news col-md-6">
+        <h2>Recent News</h2>
+        <p>After three months of public playtesting we are pleased to finally declare “Mission Accomplished” on the new OpenRA release! Release 20171014 makes some fundamental changes to the way that the OpenRA game engine works, plus a few similarly important gameplay changes to the default mods.</p>
+        <p>The first big change will be visible as soon as you go to launch your favourite mod. The in game mod chooser has been removed, and mods are now launched directly from your operating system. This is part of a much larger set of changes to the game engine to support multiple OpenRA installations and the new Mod SDK.</p>
+
+        <img src="images/20171014-dmg.png" alt="">
+
+        <p>The mod chooser screen has been replaced by separate launchers for each mod.</p>
+
+        <p>The next big change is the new command bar at the bottom of the screen. This new UI improves discoverability for several advanced unit commands and served as a focus for several gameplay changes related to unit stances and the Attack Move command – read through the in game button tooltips to find out more!</p>
+
+        <img src="images/20171014-commandbar.png" alt="">
+
+        <p>A new bottom command bar is now available for issuing common orders and changing unit stances.</p>
+
+        <p>The final group of big changes is less obvious, but just as important: the way that buildings are targeted and take damage has been reworked (taking inspiration from the original Dune 2000) to account for the size of the building footprint. This has a range of balance implications, for example Tanya and Commandos no longer need to run to the center of buildings to demolish them.</p>
+
+        <p>Other great new features in this release include:</p>
+
+        <ul>
+          <li>Automatic discovery of LAN games in the Multiplayer browser.</li>
+          <li>Nine more campaign missions for D2K, which is now half way complete!</li>
+          <li>New search and filtering options in the Map editor.</li>
+          <li>Installing missing maps from the Replay browser.</li>
+          <li>Improvements to the Global Chat UI.</li>
+          <li>Significant performance and memory improvements relating to music playback.</li>
+          <li>Community-driven balance improvements to Red Alert and Tiberian Dawn.</li>
+        </ul>
+
+        <p>See the full changelog for more details, or go directly to our download page to try them out for yourself.</p>
+
+        <img src="images/20170722-td-buildinghitshapes.png" alt="">
+
+        <p>New building physics improves the way that structures are targeted and take damage.</p>
+
+        <p>Supporting the C&C modding community has always been an important goal for OpenRA, and this release takes a big, but disruptive, step forward in this area. Back in April we announced the planned mod chooser removal, and in July we released the first version of the OpenRA Mod SDK that replaces it. From now on, all mods should be built using the SDK, which makes it easy for you to build your own stand-alone installers that do not rely on a base OpenRA installation. See the SDK getting started wiki page for more details!</p>
+
+        <p>Other improvements for modders include further adoption of trait conditions, improved error checks and logging, and a collection of new and improved game logic for energy walls, tunnels, and subterranean units.</p>
+
+        <p>It has been a long road to this release, and we hope you enjoy it!</p>
+
+      </div>
+
+
+
+    <!-- Carousel --->
+    <!--
+    <div class="row">
+      <div id="carouselExampleSlidesOnly" class="carousel slide col-md-6" data-ride="carousel">
+        <div class="carousel-inner col-md-offset-3">
+          <div class="carousel-item active col-md-offset-3">
+            <img class="d-block w-100" src="images/d2k-base.png" alt="First slide">
+          </div>
+          <div class="carousel-item col-md-offset-3">
+            <img class="d-block w-100" src="images/ra-yaks.png" alt="Second slide">
+          </div>
+          <div class="carousel-item col-md-offset-3">
+            <img class="d-block w-100" src="images/cnc-defend.png" alt="Third slide">
+          </div>
+          <div class="carousel-item col-md-offset-3">
+            <img class="d-block w-100" src="images/cnc-mammoths.png" alt="Third slide">
+          </div>
+          <div class="carousel-item col-md-offset-3">
+            <img class="d-block w-100" src="images/d2k-battle.png" alt="Third slide">
+          </div>
+          <div class="carousel-item col-md-offset-3">
+            <img class="d-block w-100" src="images/d2k-starport.png" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
+
+
+  <!-- End of container -->
+  </div>
+
+
+
+
+    <div class="container-fluid footer col-md-12">
+        <ul class="social-media">
+          <h2 class="social-h2">Find us on social media</h2>
+          <li>
+            <div class="circle">
+              <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li>
+            <div class="circle">
+              <i class="fa fa-twitter fa-3x" fa-3x aria-hidden="true"></i>
+            </div>
+          </li>
+          <li>
+            <div class="circle">
+              <i class="fa fa-reddit fa-3x" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li>
+            <div class="circle">
+              <i class="fa fa-youtube fa-3x" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li>
+            <div class="circle">
+              <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li>
+            <div class="circle">
+              <i class="fa fa-steam fa-3x" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li>
+            <div class="circle">
+              <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+            </div>
+          </li>
+        </ul>
+
+        <p>Copyright &copy The OpenRA developers</p>
+        <p><a href="http://www.openra.net/legal/">Legal Notice</a></p>
+    </div>
+
+
+
+
+
+
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
