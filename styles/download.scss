@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Russo+One');
+/*  font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+*/
+
+$red: #FF4136;
+
+h1, h2, h3 {
+  font-family: 'Russo One', sans-serif;
+  color: $red;
+}
+
+
+.container-fluid {
+  overflow: auto;
+  background-color: white;//#333333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.6;
+  color: black;
+
+}
+
+// Naviation *******************************************************************/
+.nav-item {
+  width: 100%;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+
+  .nav-link {
+    color: $red;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.fork-me {
+  position: relative;
+  float: right;
+  top: 0;
+  right: 0;
+}
+
+
+// Jumbotron *******************************************************************/
+.jumbotron-fluid {
+  overflow: auto;
+  //background-image: url("images/redalertbackground.jpg");
+  //background-size: 100% 100%;
+  padding: 0;
+  color: black;
+
+
+
+  .soviet-image {
+    text-align: center;
+    margin-top: 9em;
+  }
+
+  .display-3 {
+    text-align: center;
+    font-size: 2.3em;
+    //width: 80%;
+    margin: auto;
+    padding-bottom: 1em;
+  }
+
+  .lead {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    display: block;
+    background-color: $red;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+  }
+}
+
+
+// Operating Sytems ************************************************************/
+.os-section {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.operating-systems {
+  padding: 0;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  li {
+    list-style-type: none;
+
+    a img{
+     display: inline;
+   }
+  }
+
+}
+
+.tab {
+  display: none;
+}
+
+.logo {
+  margin: 1em;
+}
+
+// Social Media ****************************************************************/
+.social-h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.social-media {
+  text-align: center;
+  padding: 0;
+  margin-top: 3em;
+
+  ul {
+    margin: 0;
+  }
+
+  li {
+    display: block;
+  }
+}
+
+.circle {
+  height: 80px;
+  width: 80px;
+  background-color: $red;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+
+  a {
+    color: black;
+  }
+
+  i {
+    line-height: inherit;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+
+// Footer **********************************************************************/
+.footer {
+  background-color: #212121;
+  height: 20em;
+
+  p {
+    text-align: center;
+    color: white;
+    margin: 1em;
+  }
+}
+
+
+@media screen and (min-width:900px) {
+  .nav {
+    display: inline-block;
+    text-align: center;
+  }
+  .nav-item {
+   display: inline;
+   font-size: 1.2em;
+ }
+
+ .nav-link {
+   display: inline;
+ }
+
+ .os-section {
+   margin-bottom: 20em;
+ }
+
+ .operating-systems {
+
+   li {
+     list-style-type: none;
+     display: inline;
+
+     a img{
+      display: inline-block;
+    }
+   }
+
+ }
+
+ .tab {
+   display: none;
+ }
+
+ .logo {
+   margin: .5em;
+ }
+
+
+ .social-media li {
+   display: inline;
+   margin: .5em;
+ }
+}
