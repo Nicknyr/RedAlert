@@ -16,7 +16,6 @@
   </head>
   <body>
 
-    <div class="container-fluid">
 
       <ul class="nav navbar-fixed-top col-md-12">
         <li class="nav-item">
@@ -39,22 +38,23 @@
         </li>
       </ul>
 
-
       <!-- Jumbotron -->
       <div class="jumbotron jumbotron-fluid">
         <div class="fork-me">
           <img src="images/forkme.svg" alt="">
         </div>
         <div class="container">
-          <div class="soviet-image">
-            <img src="images/soviet-logo.svg" alt="">
-          </div>
           <h1 class="display-3">Downloads</h1>
           <p class="lead col-md-4">Classic stragety games rebuilt for the modern era</p>
           <p class="lead col-md-4">Open Source. Free. For all modern operating systems</p>
           <button type="button" class="btn">Install Now</button>
         </div>
       </div>
+
+
+    <div class="container-fluid">
+
+
 
     <div class="container-fluid">
       <div class="row">
@@ -89,7 +89,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-6 offset-md-3" id="windows">
+        <div class="tab col-md-6 offset-md-3 download-section" id="windows">
           <h3>Download OpenRa for Windows</h3>
           <p>The default GPU drivers included with Windows do not support OpenGL rendering.
              You may need to install full drivers supplied by your GPU vendor.</p>
@@ -101,7 +101,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-6 offset-md-3" id="osx">
+        <div class="tab col-md-6 offset-md-3 download-section" id="osx">
           <h3>Download OpenRa for OSX</h3>
           <p>OpenRA requires Mono 4.6 or greater. Download Mono.</p>
           <button>Download</button>
@@ -115,7 +115,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-6 offset-md-3" id="debian">
+        <div class="tab col-md-6 offset-md-3 download-section" id="debian">
           <h3>Download OpenRa for Debian</h3>
           <p>Download and run one of the packages below to install OpenRA via the Software Center.</p>
           <button>Download</button>
@@ -128,7 +128,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-8 offset-md-3" id="fedora">
+        <div class="tab col-md-8 offset-md-3 download-section" id="fedora">
           <h3>Install OpenRA for Fedora / openSUSE</h3>
           <p>Stable releases and playtests are available via our openSUSE Build Service repository.</p>
         </div>
@@ -137,7 +137,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-6 offset-md-3" id="arch">
+        <div class="tab col-md-6 offset-md-3 download-section" id="arch">
           <h3>Download OpenRa for Arch Linux</h3>
           <p>Stable releases are available in the official Arch repository, and can be installed using pacman:</p>
           <p>$ pacman -S openra </p>
@@ -149,7 +149,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-6 offset-md-3" id="gentoo">
+        <div class="tab col-md-6 offset-md-3 download-section" id="gentoo">
           <h3>Download OpenRa for Gentoo</h3>
           <p>Unofficial packages for both releases and playtests are available via the “dr” overlay:</p>
           <p>$ emerge -av layman</p>
@@ -164,7 +164,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-6 offset-md-3" id="exherbo">
+        <div class="tab col-md-6 offset-md-3 download-section" id="exherbo">
           <h3>Install OpenRA for Exherbo</h3>
           <p>Packages for both releases and playtests are available via the hasufell overlay:</p>
           <p>$ cave resolve repository/hasufell</p>
@@ -177,7 +177,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="tab col-md-6 offset-md-3" id="freebsd">
+        <div class="tab col-md-6 offset-md-3 download-section" id="freebsd">
           <h3>Download OpenRa for FreeBSD</h3>
           <p>Stable releases are available in the FreeBSD Ports Collection:</p>
           <p># cd /usr/ports/games/openra</p>

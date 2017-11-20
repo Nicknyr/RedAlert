@@ -15,6 +15,9 @@ h1, h2, h3 {
   line-height: 1.6;
   color: black; }
 
+.nav {
+  background-color: #212121; }
+
 .nav-item {
   width: 100%;
   text-align: center;
@@ -32,8 +35,10 @@ h1, h2, h3 {
 
 .jumbotron-fluid {
   overflow: auto;
+  background: url("../images/statueofliberty2.jpg") no-repeat center center;
   padding: 0;
-  color: black; }
+  color: black;
+  height: 42em; }
   .jumbotron-fluid .soviet-image {
     text-align: center;
     margin-top: 9em; }

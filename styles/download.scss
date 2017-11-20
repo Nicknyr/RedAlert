@@ -23,6 +23,10 @@ h1, h2, h3 {
 }
 
 // Naviation *******************************************************************/
+.nav {
+  background-color: #212121;
+}
+
 .nav-item {
   width: 100%;
   text-align: center;
@@ -32,7 +36,7 @@ h1, h2, h3 {
     color: $red;
 
     &:hover {
-      color: black;
+      color: white;
     }
   }
 }
@@ -48,10 +52,16 @@ h1, h2, h3 {
 // Jumbotron *******************************************************************/
 .jumbotron-fluid {
   overflow: auto;
-  //background-image: url("images/redalertbackground.jpg");
-  //background-size: 100% 100%;
+  background: url("../images/tanya2.jpg") no-repeat center center;
   padding: 0;
   color: black;
+  height: 40em;
+
+  img {
+    //height: auto;
+    max-width: 100%;
+  }
+
 
 
 
@@ -118,6 +128,20 @@ h1, h2, h3 {
 
 .logo {
   margin: 1em;
+}
+
+.download-section button {
+  background-color: #2ecc71;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px black;
+  margin: 1em;
+
+  &:hover {
+    color: #212121;
+  }
 }
 
 // Social Media ****************************************************************/
