@@ -55,12 +55,9 @@ h1, h2, h3 {
   background: url("../images/tanya2.jpg") no-repeat center center;
   padding: 0;
   color: black;
-  height: 40em;
+  height: 35em;
+  background-size: cover;
 
-  img {
-    //height: auto;
-    max-width: 100%;
-  }
 
 
 
@@ -74,8 +71,11 @@ h1, h2, h3 {
     text-align: center;
     font-size: 2.3em;
     //width: 80%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
     padding-bottom: 1em;
+    color: white;
   }
 
   .lead {
@@ -84,20 +84,10 @@ h1, h2, h3 {
     margin-right: auto;
     margin-bottom: 1em;
     font-size: 1.2em;
+    color: white;
   }
 
-  button {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
-    display: block;
-    background-color: $red;
-    color: white;
-    font-family: 'Russo One', sans-serif;
-    border: 2px solid black;
-    box-shadow: 2px 2px 5px black;
-  }
+  
 }
 
 
@@ -165,14 +155,15 @@ h1, h2, h3 {
 }
 
 .circle {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: $red;
   border-radius: 50%;
-  line-height: 80px;
+  line-height: 60px;
   text-align: center;
   vertical-align: middle;
   display: inline-block;
+  margin: .5em;
 
   a {
     color: black;
@@ -188,10 +179,11 @@ h1, h2, h3 {
 }
 
 
+
 // Footer **********************************************************************/
 .footer {
   background-color: #212121;
-  height: 20em;
+  height: auto;
 
   p {
     text-align: center;

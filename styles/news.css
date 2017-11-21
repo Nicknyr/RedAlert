@@ -6,6 +6,9 @@ h1, h2, h3 {
   font-family: 'Russo One', sans-serif;
   color: #FF4136; }
 
+hr {
+  margin-bottom: 2.5rem; }
+
 .container-fluid {
   overflow: auto;
   background-color: white;
@@ -15,6 +18,9 @@ h1, h2, h3 {
   line-height: 1.6;
   color: black; }
 
+.nav {
+  background-color: #212121; }
+
 .nav-item {
   width: 100%;
   text-align: center;
@@ -22,7 +28,7 @@ h1, h2, h3 {
   .nav-item .nav-link {
     color: #FF4136; }
     .nav-item .nav-link:hover {
-      color: black; }
+      color: white; }
 
 .fork-me {
   position: relative;
@@ -32,6 +38,7 @@ h1, h2, h3 {
 
 .jumbotron-fluid {
   overflow: auto;
+  height: 35em;
   padding: 0;
   color: black; }
   .jumbotron-fluid .soviet-image {
@@ -59,6 +66,8 @@ h1, h2, h3 {
     font-family: 'Russo One', sans-serif;
     border: 2px solid black;
     box-shadow: 2px 2px 5px black; }
+    .jumbotron-fluid button:hover {
+      color: black; }
 
 .social-h2 {
   text-align: center;
@@ -74,14 +83,15 @@ h1, h2, h3 {
     display: block; }
 
 .circle {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: #FF4136;
   border-radius: 50%;
-  line-height: 80px;
+  line-height: 60px;
   text-align: center;
   vertical-align: middle;
-  display: inline-block; }
+  display: inline-block;
+  margin: .5em; }
   .circle a {
     color: black; }
   .circle i {
@@ -91,7 +101,7 @@ h1, h2, h3 {
 
 .footer {
   background-color: #212121;
-  height: 20em; }
+  height: auto; }
   .footer p {
     text-align: center;
     color: white;

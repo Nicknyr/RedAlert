@@ -10,6 +10,10 @@ h1, h2, h3 {
   color: $red;
 }
 
+hr {
+  margin-bottom: 2.5rem;
+}
+
 
 .container-fluid {
   overflow: auto;
@@ -23,6 +27,11 @@ h1, h2, h3 {
 }
 
 // Naviation *******************************************************************/
+.nav {
+  background-color: #212121;
+
+}
+
 .nav-item {
   width: 100%;
   text-align: center;
@@ -32,7 +41,7 @@ h1, h2, h3 {
     color: $red;
 
     &:hover {
-      color: black;
+      color: white;
     }
   }
 }
@@ -50,6 +59,7 @@ h1, h2, h3 {
   overflow: auto;
   //background-image: url("images/redalertbackground.jpg");
   //background-size: 100% 100%;
+  height: 35em;
   padding: 0;
   color: black;
 
@@ -87,11 +97,17 @@ h1, h2, h3 {
     font-family: 'Russo One', sans-serif;
     border: 2px solid black;
     box-shadow: 2px 2px 5px black;
+
+    &:hover {
+      color: black;
+
+    }
   }
 }
 
 
 
+// Social Media ****************************************************************/
 // Social Media ****************************************************************/
 .social-h2 {
   text-align: center;
@@ -113,14 +129,15 @@ h1, h2, h3 {
 }
 
 .circle {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: $red;
   border-radius: 50%;
-  line-height: 80px;
+  line-height: 60px;
   text-align: center;
   vertical-align: middle;
   display: inline-block;
+  margin: .5em;
 
   a {
     color: black;
@@ -139,7 +156,7 @@ h1, h2, h3 {
 // Footer **********************************************************************/
 .footer {
   background-color: #212121;
-  height: 20em;
+  height: auto;
 
   p {
     text-align: center;

@@ -16,7 +16,7 @@ h1, h2, h3 {
   color: black; }
 
 .nav {
-  background-color: black; }
+  background-color: #212121; }
 
 .nav-item {
   width: 100%;
@@ -38,7 +38,8 @@ h1, h2, h3 {
   background: url("../images/copy-ra3.jpg") no-repeat center center;
   padding: 0;
   color: black;
-  height: 42em; }
+  height: 35em;
+  background-size: cover; }
   .jumbotron-fluid .soviet-image {
     text-align: center;
     margin-top: 9em; }
@@ -56,6 +57,8 @@ h1, h2, h3 {
     margin-right: auto;
     margin-bottom: 1em;
     font-size: 1.2em;
+    font-weight: bolder;
+    line-height: 1.5;
     color: white; }
   .jumbotron-fluid button {
     text-align: center;
@@ -68,16 +71,21 @@ h1, h2, h3 {
     font-family: 'Russo One', sans-serif;
     border: 2px solid black;
     box-shadow: 2px 2px 5px black; }
+    .jumbotron-fluid button:hover {
+      color: black; }
 
 .news {
   height: auto; }
   .news h2 {
-    text-align: center; }
+    text-align: center;
+    margin-top: 1em; }
   .news img {
     width: 100%; }
   .news p {
     margin-top: 2em;
     margin-bottom: 2em; }
+  .news #last-paragraph {
+    margin-bottom: 6em; }
 
 .social-h2 {
   text-align: center;
@@ -108,6 +116,9 @@ h1, h2, h3 {
     line-height: inherit; }
     .circle i:hover {
       color: white; }
+
+.carousel-container {
+  background-color: #ecf0f1; }
 
 .footer {
   background-color: #212121;
